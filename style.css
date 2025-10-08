@@ -1,0 +1,32 @@
+ .container{
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid black;
+            font-family:'Times New Roman';
+            font-weight: bold;
+        }
+        span{
+            position: relative;
+            background-color: yellow;
+            left: 400px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+        }
+        .satu{
+            background-color: rgb(106, 104, 177);
+        }
+        .dua{
+            background-color: rgb(93, 63, 93);
+        }
+        .tiga{
+            background-color: rgb(161, 113, 24);
+            position: fixed;
+            top: 50vh;
+            left: 50vh:auto
+        }
